@@ -5,12 +5,13 @@
       "overwrite": false,
       "html": false,
       "json": true
-     }
-},
-
-"reporter": "junit",
-"reporterOptions": {
-   "mochaFile": "tests/test-output-[hash].xml",
-   "toConsole": true,
-   "attachments": true
+     },
+    "reporter": "junit",
+    "reporterOptions": {
+       "mochaFile": "tests/test-output-[hash].xml",
+       "toConsole": true,
+       "attachments": true
    }
+}
+
+
