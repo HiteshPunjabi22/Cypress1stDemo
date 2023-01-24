@@ -21,6 +21,6 @@ jobs:
       run: npm install
       
     - name: run tests
-      run: npx cypress run
+      run: npm cypress run
     
     
